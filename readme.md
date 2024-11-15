@@ -4,6 +4,9 @@
 
 This is a powerful library designed to simplify time conversions and scheduling for your projects, whether in Finance, AI, or any other Node.js application. It provides a range of utilities for converting UNIX timestamps to readable formats, scheduling tasks, and handling complex timing requirements, making your development process smoother and more efficient.
 
+#Github repo
+For comprehensive documentation, please refer to the [GitHub Repository](https://github.com/coderxone/codertime).
+
 ## Features
 
 - **Time Conversion**: Easily convert UNIX timestamps to human-readable formats, handle different time zones, and perform date calculations.
@@ -39,9 +42,13 @@ import {
   run_every_day_at8am,
   run_every_minute,
   run_every_5_second,
-} from 'codertime';
-
-`import {timeConverter_us_date} from 'codertime';`
+  run_every_2_second,
+  run_every_30_second,
+  run_once_through_2_hours,
+  run_every_60_second,
+  run_every_sunday,
+  run_every_day_at9am,
+} from 'codertime';`
 
 
 // Example 1: Convert UNIX timestamp to readable format
