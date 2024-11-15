@@ -1,0 +1,31 @@
+{
+  "name": "codertime",
+  "type": "module",
+  "version": "1.0.1",
+  "description": "this library help create and convert time for AI apps or any other projects",
+  "main": "index.mjs",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+ "scripts": {
+    "test": "node ./testFolder/script.js"
+  },
+  "keywords": [
+    "convert any time",
+    "time converter",
+    "public",
+    "time convert unix timestamp converting library",
+    "cron scheduler with subscribtion",
+    "library"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment-timezone": "^0.5.46",
+    "rxjs": "^7.8.1",
+    "node-cron": "^3.0.3"
+  }
+}
