@@ -325,6 +325,10 @@ const cronSundaySubject = new rx.Subject();
       return cronEveryMinute;
       
     }
+    export const run_every_one_second = () => {
+      const source = rx.timer(1000,1000);
+      return source;
+    }
     export const run_every_2_second = () => {
       const source = rx.timer(1000,2000);
       return source;

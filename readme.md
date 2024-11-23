@@ -292,6 +292,12 @@ Schedules a task to run every minute.
 run_every_minute().subscribe(() => console.log("Task runs every minute"));
 // Output: "Task runs every minute"
 
+33. run_every_one_second
+Creates an observable that emits every 2 seconds.
+
+run_every_one_second().subscribe(() => console.log("Task runs every 1 seconds"));
+// Output: "Task runs every 1 seconds"
+
 33. run_every_2_second
 Creates an observable that emits every 2 seconds.
 

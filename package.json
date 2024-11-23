@@ -1,7 +1,7 @@
 {
   "name": "codertime",
   "type": "module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "this library help create and convert time for AI apps or any other projects",
   "main": "index.mjs",
   "exports": {
